@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Periodico Display Md';
+    src: url('C/Users/USER/Desktop/SunmolaYinka/PeriodicoDisplay-Md.woff2') format('woff2'),
+        url('C/Users/USER/Desktop/SunmolaYinka/PeriodicoDisplay-Md.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Display Th';
+    src: url('C/Users/USER/Desktop/SunmolaYinka/PeriodicoDisplay-Th.woff2') format('woff2'),
+        url('C/Users/USER/Desktop/SunmolaYinka/PeriodicoDisplay-Th.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Periodico Display Bd It';
+    src: url('C/Users/USER/Desktop/SunmolaYinka/PeriodicoDisplay-BdIt.woff2') format('woff2'),
+        url('C/Users/USER/Desktop/SunmolaYinka/PeriodicoDisplay-BdIt.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sombra';
+    src: url('C/Users/USER/Desktop/SunmolaYinka/Sombra-Black.woff2') format('woff2'),
+        url('C/Users/USER/Desktop/SunmolaYinka/Sombra-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sombra';
+    src: url('C/Users/USER/Desktop/SunmolaYinka/Sombra-Regular.woff2') format('woff2'),
+        url('C/Users/USER/Desktop/SunmolaYinka/Sombra-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sombra';
+    src: url('C/Users/USER/Desktop/SunmolaYinka/Sombra-Medium.woff2') format('woff2'),
+        url('C/Users/USER/Desktop/SunmolaYinka/Sombra-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sombraa';
+    src: url('C/Users/USER/Desktop/SunmolaYinka/Sombra-Bold.woff2') format('woff2'),
+        url('C/Users/USER/Desktop/SunmolaYinka/Sombra-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sombra';
+    src: url('C/Users/USER/Desktop/SunmolaYinka/Sombra-Light.woff2') format('woff2'),
+        url('C/Users/USER/Desktop/SunmolaYinka/Sombra-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sombra';
+    src: url('C/Users/USER/Desktop/SunmolaYinka/Sombra-Thin.woff2') format('woff2'),
+        url('C/Users/USER/Desktop/SunmolaYinka/Sombra-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+.nav-item:hover{
+ color: rgb(241, 221, 221);
+    
+    transition: all .7s ease-in-out;
+}
+
+.active{
+    color: black;
+}
+.color{
+    color: #BDBDBD;   
+}
+
+nav{
+    background: #FFFFFF;
+box-shadow: 0px 2px 2px rgba(159, 159, 159, 0.25);
+
+}
+
+#link{
+    margin-left: 60%;
+
+}
+p{
+
+}
+
+body{ 
+     font-family: 'sombra';
+     font-weight: 500;
+     color: #332D2D;
+
+}
+.section2{
+    background: #B6C8E8;
+
+
+}
+#edit{
+  margin-left: 25%;
+}
+.section{
+    background: #E5E5E5;
+    height: 820px;
+    
+}
+#edits{
+    margin-left: 30%;
+    font-size: 30px;
+    width: 40%;
+    line-height: 40px;
+  }
+#movedown{
+ margin-top: 10%;
+}
+@media screen and (max-width:650px) {
+ 
+    #text-link>.nav-item{
+        margin-bottom: 8px;
+       }
+}
+
